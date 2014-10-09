@@ -9,7 +9,6 @@
 </head>
 <body ng-app="demoApp" ng-controller="MainCtrl">
   <h2>Todo</h2>
-  <div ng-controller="MyTodoCtrl">
     <span>{{remaining()}} of {{todos.length}} remaining</span>
     [ <a href="" ng-click="archive()">archive</a> ]
     <ul class="unstyled">
@@ -23,6 +22,6 @@
              placeholder="add new todo here">
       <input class="btn-primary" type="submit" value="add">
     </form>
-  </div>
+ 
 </body>
 </html>
